@@ -1,0 +1,7 @@
+{
+    "name": "ipkroks/hello",
+    "description": "My 2 app",
+    "require": {
+        "php": "^5.2",
+    }
+}
