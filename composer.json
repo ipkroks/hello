@@ -3,5 +3,10 @@
     "description": "My 2 app",
     "require": {
         "php": "^5.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "popov\\hello\\": "src/"
+        }
     }
 }
