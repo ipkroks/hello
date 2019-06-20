@@ -4,6 +4,7 @@
     "require": {
         "php": "^5.2"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "popov\\hello\\": "src/"
