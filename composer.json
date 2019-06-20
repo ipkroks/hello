@@ -2,6 +2,7 @@
     "name": "ipkroks/hello",
     "description": "My 2 app",
     "require": {
+        "php": "7.2.*"
     },
     "license": "MIT",
     "autoload": {
