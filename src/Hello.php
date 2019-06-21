@@ -7,4 +7,9 @@ class Hello {
 	{
 		return "Hello " . $message;
 	}
+
+	public function getSum($one, $two)
+	{
+		return $one + $two;
+	}
 }
