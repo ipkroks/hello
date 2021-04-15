@@ -10,6 +10,6 @@ class Hello {
 
 	public function getSum($one, $two)
 	{
-		return $one + $two;
+		return $one;
 	}
 }
