@@ -1,0 +1,11 @@
+name: My CI
+on:
+  push:
+    branches:
+      - psalm
+jobs:
+  igor-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run unit tests via PHPUnit
+      run: ./vendor/bin/phpcs about.php
