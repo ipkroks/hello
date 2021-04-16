@@ -2,7 +2,7 @@ name: My CI
 on:
   push:
     branches:
-      - psalm
+      - master
 jobs:
   igor-tests:
     runs-on: ubuntu-latest
