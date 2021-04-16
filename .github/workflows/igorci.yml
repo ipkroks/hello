@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run unit tests via PHPUnit
-      run: ./vendor/bin/phpcs
+      run: /vendor/bin/phpcs
