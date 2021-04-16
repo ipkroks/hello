@@ -7,6 +7,7 @@ jobs:
   igor-tests:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Install composer dependencies
       run: composer install
     - name: Run unit tests via PHPUnit
