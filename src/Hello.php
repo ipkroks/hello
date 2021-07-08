@@ -6,7 +6,7 @@ class Hello
 {
     public function getMessage($message)
     {
-        return "Hello " . $message;
+        return 'Hello '.$message;
     }
 
     public function getSum($one, $two)
